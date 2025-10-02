@@ -1,0 +1,134 @@
+% For copyright and license information, see uiucthesis2021.dtx and derivatives.
+\documentclass[draft]{uiucthesis2021}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{csquotes}
+\usepackage{microtype}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage[bookmarksdepth=3,linktoc=all,colorlinks=true,urlcolor=blue,linkcolor=blue,citecolor=blue]{hyperref}
+\usepackage[style=ieee]{biblatex}
+
+% \usepackage{ruledchapters}  % example of compliant heading format, uncomment to use
+
+\usepackage{lipsum}  % just for placeholder code
+
+% uncomment the below to show a grid on all pages
+% \usepackage[grid, gridunit=in, gridcolor=blue!40, subgridcolor=blue!20]{eso-pic}
+
+\addbibresource{./references.bib}
+
+\newcounter{counterforappendices}
+
+\begin{document}
+
+\title{Domain-Aware Entropy-Selective Knowledge
+Distillation}
+\author{Xitong (Jacqueline) Zhang}
+\department{Bioinformatics}
+\concentration{Information Science}
+\msthesis
+\degreeyear{2025}
+\committee{
+    Professor Prof Jingrui He\\
+    Assistant Professor Prof Jiaqi Ma}
+\maketitle
+
+\frontmatter
+
+\begin{abstract}
+This is a comprehensive study of caffeine consumption by graduate
+students at the University of Illinois who are in the very final
+stages of completing their doctoral degrees. A study group of six
+hundred doctoral students\ldots.
+\end{abstract}
+
+\begin{dedication}
+To Father and Mother.
+\end{dedication}
+
+\begin{acknowledgments}
+This project would not have been possible without the support of
+many people. Many thanks to my adviser, Lawrence T. Strongarm, who
+read my numerous revisions and helped make some sense of the
+confusion. Also thanks to my committee members, Reginald Bottoms,
+Karin Vegas, and Cindy Willy, who offered guidance and support.
+Thanks to the University of Illinois Graduate College for awarding
+me a Dissertation Completion Fellowship, providing me with the
+financial means to complete this project. And finally, thanks to
+my husband, parents, and numerous friends who endured this long
+process with me, always offering support and love.
+\end{acknowledgments}
+
+{
+    \hypersetup{linkcolor=black}  % disable link coloring locally
+    \tableofcontents
+    % the Graduate College doesn't recommend including lot or lof
+    % \listoftables
+    % \listoffigures
+}
+
+\chapter{List of Abbreviations}
+
+\begin{abbrevlist}
+\item[CA] Caffeine Addict.
+\item[CD] Coffee Drinker.
+\end{abbrevlist}
+
+\chapter{List of Symbols}
+
+\begin{symbollist}[0.7in]
+\item[$\tau$] Time taken to drink one cup of coffee.
+\item[$\mu$g] Micrograms (of caffeine, generally).
+\end{symbollist}
+
+\mainmatter
+
+\chapter{Introduction}
+
+\section{Background and Motivation}
+
+\include{introduction}
+
+
+\include{related_work}
+
+\section{Proposed Approach}
+Our goal is to efficiently distill a large language model into a smaller student that performs well under domain shift while minimizing computational cost. We begin by adapting both teacher and student models to the target domain using a brief round of pretraining on a corpus of explanation-rich texts. This step ensures that both models share a more relevant vocabulary and representation space, helping to mitigate domain drift without requiring expensive continual pretraining.
+
+Once adapted, the student estimates its own uncertainty over the training set and selectively queries the teacher only on the most difficult examples—those it is least confident about. Distillation begins with a small subset of high-uncertainty samples, and this subset is gradually expanded over time. This exploration-style schedule allows the student to learn from the most informative supervision signals while avoiding redundant teacher calls on easy examples.
+
+The learning objective encourages the student to align closely with the teacher on the selected samples, while continuing to improve its own predictions across the broader dataset. In contrast to traditional KD pipelines, which require full teacher passes over all examples, our method concentrates effort where it matters most—achieving greater efficiency without compromising accuracy.
+
+To validate the method, we compare it against three representative baselines: standard fine-tuning without KD, full-corpus distillation after domain adaptation, and entropy-based KD without adaptation. Models are evaluated on both open-domain and reasoning-intensive benchmarks. In addition to accuracy metrics, we also report total training cost and teacher-query volume, allowing us to assess the efficiency and practicality of the proposed pipeline.
+
+
+
+\chapter{Conclusions}
+
+We conclude that graduate students like coffee.
+
+% per Graduate College preference, place the \appendix and the appendices content before the
+% bibliography (here) only if the appendices contain references.
+
+\backmatter
+
+\printbibliography[heading=bibintoc,title={References}]
+
+% the below lines are only needed if bibliography precedes appendices
+% uses https://tex.stackexchange.com/a/440212 to continue page numbering
+% \clearpage
+% \setcounter{counterforappendices}{\value{page}}
+% \mainmatter
+
+
+
+% \setcounter{page}{\value{counterforappendices}}
+
+% \appendix
+
+% \chapter{An appendix}
+
+
+% \input{Appendix.tex}
+
+\end{document}
