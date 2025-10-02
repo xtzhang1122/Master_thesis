@@ -1,0 +1,118 @@
+\documentclass[12pt,a4paper,oneside]{report}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{cite}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+
+% Page layout
+\geometry{
+    a4paper,
+    left=30mm,
+    right=25mm,
+    top=25mm,
+    bottom=25mm
+}
+
+% Line spacing
+\onehalfspacing
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\leftmark}
+\fancyfoot[C]{\thepage}
+
+% Hyperref setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+    citecolor=blue,
+    pdftitle={Master Thesis},
+    pdfauthor={Author Name},
+}
+
+% Title page information
+\title{Master Thesis Title}
+\author{Author Name}
+\date{\today}
+
+\begin{document}
+
+% Title page
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    
+    {\Huge\bfseries Master Thesis Title\par}
+    \vspace{1.5cm}
+    
+    {\Large\itshape Author Name\par}
+    \vspace{1cm}
+    
+    {\large A thesis submitted in partial fulfillment of the requirements\par}
+    {\large for the degree of Master of Science\par}
+    \vspace{1cm}
+    
+    {\large Department Name\par}
+    {\large University Name\par}
+    \vspace{1cm}
+    
+    {\large \today\par}
+    
+    \vfill
+    
+    {\large Supervisor: Supervisor Name\par}
+\end{titlepage}
+
+% Abstract
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+\input{abstract.tex}
+
+% Acknowledgments
+\chapter*{Acknowledgments}
+\addcontentsline{toc}{chapter}{Acknowledgments}
+\input{acknowledgments.tex}
+
+% Table of contents
+\tableofcontents
+\cleardoublepage
+
+% List of figures (optional)
+\listoffigures
+\addcontentsline{toc}{chapter}{List of Figures}
+\cleardoublepage
+
+% List of tables (optional)
+\listoftables
+\addcontentsline{toc}{chapter}{List of Tables}
+\cleardoublepage
+
+% Main content
+\input{chapters/chapter1.tex}
+\input{chapters/chapter2.tex}
+\input{chapters/chapter3.tex}
+\input{chapters/chapter4.tex}
+\input{chapters/chapter5.tex}
+
+% Bibliography
+\bibliographystyle{plain}
+\bibliography{references}
+\addcontentsline{toc}{chapter}{Bibliography}
+
+% Appendices (optional)
+\appendix
+\input{chapters/appendix.tex}
+
+\end{document}
