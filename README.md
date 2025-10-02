@@ -27,7 +27,29 @@ You need a LaTeX distribution installed on your system:
 
 ### Compile the Thesis
 
-To compile the thesis, run the following commands in the repository root:
+#### Using Make (recommended)
+
+The easiest way to build the thesis is using the provided Makefile:
+
+```bash
+make
+```
+
+To clean auxiliary files:
+
+```bash
+make clean
+```
+
+To clean all files including the PDF:
+
+```bash
+make cleanall
+```
+
+#### Manual Compilation
+
+Alternatively, you can compile manually:
 
 ```bash
 pdflatex thesis.tex
