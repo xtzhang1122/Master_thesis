@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.27)  2 OCT 2025 16:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.27)  15 OCT 2025 20:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -748,18 +748,22 @@ Chapter 1.
  (./introduction.tex) [2
 
 ]
-\openout2 = `related_work.aux'.
+Chapter 2.
+[3
 
- (./related_work.tex) [3
-
-
-
-] [4] [5
 
 
 ]
-Chapter 2.
-[6
+\openout2 = `related_work.aux'.
+
+ (./related_work.tex [4
+
+]) [5] [6
+
+
+]
+Chapter 3.
+[7
 
 ]
 Package microtype Info: Loading generic protrusion settings for font family
@@ -767,19 +771,19 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (12.17184pt too wide) in paragraph at lines 115--115
+Overfull \hbox (12.17184pt too wide) in paragraph at lines 112--112
 []\OT1/cmr/m/n/10 (-20) H. Tou-vron \OT1/cmr/m/it/10 (-20) et al.\OT1/cmr/m/n/10 (-20) , \  Llama 2: Open foun-da-tion and fine-tuned chat mod-els," \OT1/cmr/m/it/10 (-20) arXiv preprint arXiv:2307.09288\OT1/cmr/m/n/10 (-20) ,|
  []
 
-[7
+[8
 
 
 ]
-Overfull \hbox (18.7529pt too wide) in paragraph at lines 115--115
+Overfull \hbox (18.7529pt too wide) in paragraph at lines 112--112
 []\OT1/cmr/m/n/10 (-20) S. Zheng \OT1/cmr/m/it/10 (-20) et al.\OT1/cmr/m/n/10 (-20) , \  To-wards stream-lined dis-til-la-tion for large lan-guage mod-els," \OT1/cmr/m/it/10 (-20) arXiv preprint arXiv:2311.16485\OT1/cmr/m/n/10 (-20) ,|
  []
 
-[8] (./thesis.aux (./introduction.aux) (./related_work.aux))
+[9] (./thesis.aux (./introduction.aux) (./related_work.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -789,18 +793,18 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21888 strings out of 474116
- 383962 string characters out of 5743682
+ 21902 strings out of 474116
+ 384150 string characters out of 5743682
  1938187 words of memory out of 5000000
- 43843 multiletter control sequences out of 15000+600000
- 571980 words of font info for 148 fonts, out of 8000000 for 9000
+ 43851 multiletter control sequences out of 15000+600000
+ 572465 words of font info for 152 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,81p,1695b,1972s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on thesis.pdf (16 pages, 157220 bytes).
+Output written on thesis.pdf (17 pages, 161359 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 105 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31233 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 33281 words of extra memory for PDF output out of 35830 (max. 10000000)
 
