@@ -84,12 +84,25 @@ process with me, always offering support and love.
 \mainmatter
 
 \chapter{Introduction}
+
 \include{introduction}
 
-\chapter{Background}
+\section{Thesis Objective}
+
+\textbf{To be fixed}
+This proposal introduces DA-ESKD, a distillation framework that directly addresses both distribution mismatch and domain gap by using student-estimated uncertainty to selectively query the teacher and expanding supervision over time. 
+The result is an efficient, adaptive KD pipeline that minimizes teacher compute without sacrificing accuracy.
+
+\section{Thesis Outline}
+
+\chapter{Background and Related Work}
+\include{ml}
+
+\include{llm}\chapter{Background}
 \include{related_work}
 
-\section{Proposed Approach}
+\chapter{Methods}
+\section{To be fixed: Proposed Approach}
 Our goal is to efficiently distill a large language model into a smaller student that performs well under domain shift while minimizing computational cost. We begin by adapting both teacher and student models to the target domain using a brief round of pretraining on a corpus of explanation-rich texts. This step ensures that both models share a more relevant vocabulary and representation space, helping to mitigate domain drift without requiring expensive continual pretraining.
 
 Once adapted, the student estimates its own uncertainty over the training set and selectively queries the teacher only on the most difficult examples—those it is least confident about. Distillation begins with a small subset of high-uncertainty samples, and this subset is gradually expanded over time. This exploration-style schedule allows the student to learn from the most informative supervision signals while avoiding redundant teacher calls on easy examples.

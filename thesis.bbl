@@ -643,53 +643,222 @@
       \verb https://arxiv.org/abs/1503.02531
       \endverb
     \endentry
-    \entry{adaptanddistill}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=3c7b363f65d0275dca5f5f3876f4d142}{%
-           family={Yan},
+    \entry{kd-survey}{article}{}
+      \name{author}{4}{}{%
+        {{hash=760b591cbcf586266094a2d347ea00d4}{%
+           family={Gou},
+           familyi={G\bibinitperiod},
+           given={Jianping},
+           giveni={J\bibinitperiod}}}%
+        {{hash=620c5e45e52284d1f41540e6e57c54bf}{%
+           family={Yu},
            familyi={Y\bibinitperiod},
-           given={Zhi},
-           giveni={Z\bibinitperiod}}}%
+           given={Baosheng},
+           giveni={B\bibinitperiod}}}%
+        {{hash=8041e1759cc1c919ecbd2cfaeec406ab}{%
+           family={Maybank},
+           familyi={M\bibinitperiod},
+           given={Stephen\bibnamedelima John},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=f15b34a2bc944a9f055fd6e2e3a7c460}{%
+           family={Tao},
+           familyi={T\bibinitperiod},
+           given={Dacheng},
+           giveni={D\bibinitperiod}}}%
       }
-      \strng{namehash}{c9251299f338fc47dc942b07a25e7a58}
-      \strng{fullhash}{c9251299f338fc47dc942b07a25e7a58}
-      \strng{bibnamehash}{c9251299f338fc47dc942b07a25e7a58}
-      \strng{authorbibnamehash}{c9251299f338fc47dc942b07a25e7a58}
-      \strng{authornamehash}{c9251299f338fc47dc942b07a25e7a58}
-      \strng{authorfullhash}{c9251299f338fc47dc942b07a25e7a58}
+      \strng{namehash}{3ee0c0388c9eb999cbddda6d49fe822e}
+      \strng{fullhash}{0804a88f8f52351b62a76f3737c933c7}
+      \strng{bibnamehash}{0804a88f8f52351b62a76f3737c933c7}
+      \strng{authorbibnamehash}{0804a88f8f52351b62a76f3737c933c7}
+      \strng{authornamehash}{3ee0c0388c9eb999cbddda6d49fe822e}
+      \strng{authorfullhash}{0804a88f8f52351b62a76f3737c933c7}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv preprint arXiv:2310.01793}
-      \field{title}{Adapt-and-Distill: Efficient Task Adaptation for Large Language Models via Knowledge Distillation}
-      \field{year}{2023}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Knowledge Distillation: {A} Survey}
+      \field{volume}{abs/2006.05525}
+      \field{year}{2020}
+      \verb{eprint}
+      \verb 2006.05525
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2006.05525
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2006.05525
+      \endverb
     \endentry
-    \entry{eakd}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=b1dd1a9ff59cc6aeba590fc68bcc39cf}{%
+    \entry{xu2024survey}{misc}{}
+      \name{author}{9}{}{%
+        {{hash=1ae291611d22e902f7793a8c502256fa}{%
            family={Xu},
            familyi={X\bibinitperiod},
-           given={Wei},
-           giveni={W\bibinitperiod}}}%
+           given={Xiaohan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=dbe83fd8da75338203d4e8dd0e20be17}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Ming},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ab4f53a9674eb9b26144c5574b0da3a8}{%
+           family={Tao},
+           familyi={T\bibinitperiod},
+           given={Chongyang},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ad877a2793afd115167ce24d8ee5b6eb}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c913b57b58d89791b035f36a799e0510}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Reynold},
+           giveni={R\bibinitperiod}}}%
+        {{hash=20e2f54cf4cbc45d48bb0ed78215a321}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jinyang},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f3bb8eb87183b807e5d23ef23b85cd92}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Can},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f15b34a2bc944a9f055fd6e2e3a7c460}{%
+           family={Tao},
+           familyi={T\bibinitperiod},
+           given={Dacheng},
+           giveni={D\bibinitperiod}}}%
+        {{hash=dc84af730bfa0a75783610aaff4f9e65}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Tianyi},
+           giveni={T\bibinitperiod}}}%
       }
-      \strng{namehash}{fd08904658d79d66387382803b131d84}
-      \strng{fullhash}{fd08904658d79d66387382803b131d84}
-      \strng{bibnamehash}{fd08904658d79d66387382803b131d84}
-      \strng{authorbibnamehash}{fd08904658d79d66387382803b131d84}
-      \strng{authornamehash}{fd08904658d79d66387382803b131d84}
-      \strng{authorfullhash}{fd08904658d79d66387382803b131d84}
+      \strng{namehash}{c8c131c999a85f1c90464eb7a2ee771e}
+      \strng{fullhash}{849d7ed6dfe5d2d2134e2268845b00a4}
+      \strng{bibnamehash}{c8c131c999a85f1c90464eb7a2ee771e}
+      \strng{authorbibnamehash}{c8c131c999a85f1c90464eb7a2ee771e}
+      \strng{authornamehash}{c8c131c999a85f1c90464eb7a2ee771e}
+      \strng{authorfullhash}{849d7ed6dfe5d2d2134e2268845b00a4}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv preprint arXiv:2305.17804}
-      \field{title}{Entropy-Aware Knowledge Distillation for Language Model Compression}
-      \field{year}{2023}
+      \field{eprintclass}{cs.CL}
+      \field{eprinttype}{arXiv}
+      \field{title}{A Survey on Knowledge Distillation of Large Language Models}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2402.13116
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2402.13116
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2402.13116
+      \endverb
+    \endentry
+    \entry{slmsurvey}{misc}{}
+      \name{author}{14}{}{%
+        {{hash=1eb630c1f83a6b22620ffdee0fcf7e1d}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Fali},
+           giveni={F\bibinitperiod}}}%
+        {{hash=af6676fd57905f96e6d74773e0c58962}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhiwei},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=71c7ad334976594e5a25ecfa0b0c069f}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xianren},
+           giveni={X\bibinitperiod}}}%
+        {{hash=45aad55fc7c373fa8aad069842aa37c9}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Zongyu},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=b282ae5d10f2212f4b6e6437bf1b13a2}{%
+           family={Mo},
+           familyi={M\bibinitperiod},
+           given={Tzuhao},
+           giveni={T\bibinitperiod}}}%
+        {{hash=41ef7856a47672c38e3c4fa0bd249e2f}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Qiuhao},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=f98497e2698fd8ff95fe84bdeea75ec1}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Wanjing},
+           giveni={W\bibinitperiod}}}%
+        {{hash=45fc0568f15b89712e9e67375ff0d1ca}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ecf613c1d97a79061731e5cd63bc3342}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Junjie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=21d9efa31d7e59f043f7eb88d143ce0f}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Xianfeng},
+           giveni={X\bibinitperiod}}}%
+        {{hash=954a8b117e47bd74e7e7fc588d404cc1}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Qi},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=b9495c8a5a2c9489e8af928b6f0eed6b}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Yao},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=7054a8c710b7f78dffabdd9e3e0d2cbd}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Ming},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d51786a0dffbd8ee68a63e5263f05e7f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Suhang},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea3317b5df2c3ecb5d1549d79974fc19}
+      \strng{fullhash}{7b74619ce10aa74fe9f43bef4377c7e8}
+      \strng{bibnamehash}{ea3317b5df2c3ecb5d1549d79974fc19}
+      \strng{authorbibnamehash}{ea3317b5df2c3ecb5d1549d79974fc19}
+      \strng{authornamehash}{ea3317b5df2c3ecb5d1549d79974fc19}
+      \strng{authorfullhash}{7b74619ce10aa74fe9f43bef4377c7e8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CL}
+      \field{eprinttype}{arXiv}
+      \field{title}{A Comprehensive Survey of Small Language Models in the Era of Large Language Models: Techniques, Enhancements, Applications, Collaboration with LLMs, and Trustworthiness}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2411.03350
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2411.03350
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2411.03350
+      \endverb
     \endentry
     \entry{gkd}{article}{}
       \true{moreauthor}
@@ -739,6 +908,131 @@
       \field{title}{Towards Streamlined Distillation for Large Language Models}
       \field{year}{2023}
     \endentry
+    \entry{distillm2}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=fbc70a6b96cf3befcfeaa5ac792e8481}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zhaojiang},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{f69f10c0f81c15a381945973ad7aeee0}
+      \strng{fullhash}{f69f10c0f81c15a381945973ad7aeee0}
+      \strng{bibnamehash}{f69f10c0f81c15a381945973ad7aeee0}
+      \strng{authorbibnamehash}{f69f10c0f81c15a381945973ad7aeee0}
+      \strng{authornamehash}{f69f10c0f81c15a381945973ad7aeee0}
+      \strng{authorfullhash}{f69f10c0f81c15a381945973ad7aeee0}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2402.02892}
+      \field{title}{A Contrastive Approach Boosts the Distillation of LLMs}
+      \field{year}{2024}
+    \endentry
+    \entry{adaptanddistill}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=3c7b363f65d0275dca5f5f3876f4d142}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Zhi},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{c9251299f338fc47dc942b07a25e7a58}
+      \strng{fullhash}{c9251299f338fc47dc942b07a25e7a58}
+      \strng{bibnamehash}{c9251299f338fc47dc942b07a25e7a58}
+      \strng{authorbibnamehash}{c9251299f338fc47dc942b07a25e7a58}
+      \strng{authornamehash}{c9251299f338fc47dc942b07a25e7a58}
+      \strng{authorfullhash}{c9251299f338fc47dc942b07a25e7a58}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2310.01793}
+      \field{title}{Adapt-and-Distill: Efficient Task Adaptation for Large Language Models via Knowledge Distillation}
+      \field{year}{2023}
+    \endentry
+    \entry{eakd}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=b1dd1a9ff59cc6aeba590fc68bcc39cf}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{fd08904658d79d66387382803b131d84}
+      \strng{fullhash}{fd08904658d79d66387382803b131d84}
+      \strng{bibnamehash}{fd08904658d79d66387382803b131d84}
+      \strng{authorbibnamehash}{fd08904658d79d66387382803b131d84}
+      \strng{authornamehash}{fd08904658d79d66387382803b131d84}
+      \strng{authorfullhash}{fd08904658d79d66387382803b131d84}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2305.17804}
+      \field{title}{Entropy-Aware Knowledge Distillation for Language Model Compression}
+      \field{year}{2023}
+    \endentry
+    \entry{dakd}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=d5544fa3688fbf4a4c0e19d8c6315491}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Changyi},
+           giveni={C\bibinitperiod}}}%
+        {{hash=cad214d8fe4319d0ca3abbf9ab46cd57}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Yifu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=2e18b16a71d75ce63ede6d168989e6a6}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Jinyang},
+           giveni={J\bibinitperiod}}}%
+        {{hash=beb82dcfb81fa76b1b29776ca2f8142f}{%
+           family={Gong},
+           familyi={G\bibinitperiod},
+           given={Ruihao},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e208681621161d6d28a2ff45b742544e}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Haotong},
+           giveni={H\bibinitperiod}}}%
+        {{hash=519ea7ba83a7aba56911161ee93410d9}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xianglong},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{74a83b1637efa172a57c7d3b5fa81aec}
+      \strng{fullhash}{fb9f3874de8978f70d1a6980ad1c240b}
+      \strng{bibnamehash}{fb9f3874de8978f70d1a6980ad1c240b}
+      \strng{authorbibnamehash}{fb9f3874de8978f70d1a6980ad1c240b}
+      \strng{authornamehash}{74a83b1637efa172a57c7d3b5fa81aec}
+      \strng{authorfullhash}{fb9f3874de8978f70d1a6980ad1c240b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Forty-second International Conference on Machine Learning}
+      \field{title}{{DA}-{KD}: Difficulty-Aware Knowledge Distillation for Efficient Large Language Models}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://openreview.net/forum?id=NCYBdRCpw1
+      \endverb
+      \verb{url}
+      \verb https://openreview.net/forum?id=NCYBdRCpw1
+      \endverb
+    \endentry
     \entry{ko2025distillm}{inproceedings}{}
       \name{author}{7}{}{%
         {{hash=936efe350472eceaa8c13e3e25b50b26}{%
@@ -783,8 +1077,8 @@
       \strng{authorbibnamehash}{bf95a7f49c7077b5ae529d1b8db7b9c0}
       \strng{authornamehash}{bf95a7f49c7077b5ae529d1b8db7b9c0}
       \strng{authorfullhash}{21eee6b6dcd1843bd5bd9986ffe47e0a}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Forty-second International Conference on Machine Learning}
@@ -818,8 +1112,8 @@
       \strng{authorbibnamehash}{460b3270afa847219fd693d73f6fc042}
       \strng{authornamehash}{460b3270afa847219fd693d73f6fc042}
       \strng{authorfullhash}{460b3270afa847219fd693d73f6fc042}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{CVPR}
@@ -889,59 +1183,6 @@
       \verb https://doi.org/10.48550/arXiv.2311.13621
       \endverb
     \endentry
-    \entry{dakd}{inproceedings}{}
-      \name{author}{6}{}{%
-        {{hash=d5544fa3688fbf4a4c0e19d8c6315491}{%
-           family={He},
-           familyi={H\bibinitperiod},
-           given={Changyi},
-           giveni={C\bibinitperiod}}}%
-        {{hash=cad214d8fe4319d0ca3abbf9ab46cd57}{%
-           family={Ding},
-           familyi={D\bibinitperiod},
-           given={Yifu},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=2e18b16a71d75ce63ede6d168989e6a6}{%
-           family={Guo},
-           familyi={G\bibinitperiod},
-           given={Jinyang},
-           giveni={J\bibinitperiod}}}%
-        {{hash=beb82dcfb81fa76b1b29776ca2f8142f}{%
-           family={Gong},
-           familyi={G\bibinitperiod},
-           given={Ruihao},
-           giveni={R\bibinitperiod}}}%
-        {{hash=e208681621161d6d28a2ff45b742544e}{%
-           family={Qin},
-           familyi={Q\bibinitperiod},
-           given={Haotong},
-           giveni={H\bibinitperiod}}}%
-        {{hash=519ea7ba83a7aba56911161ee93410d9}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Xianglong},
-           giveni={X\bibinitperiod}}}%
-      }
-      \strng{namehash}{74a83b1637efa172a57c7d3b5fa81aec}
-      \strng{fullhash}{fb9f3874de8978f70d1a6980ad1c240b}
-      \strng{bibnamehash}{fb9f3874de8978f70d1a6980ad1c240b}
-      \strng{authorbibnamehash}{fb9f3874de8978f70d1a6980ad1c240b}
-      \strng{authornamehash}{74a83b1637efa172a57c7d3b5fa81aec}
-      \strng{authorfullhash}{fb9f3874de8978f70d1a6980ad1c240b}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Forty-second International Conference on Machine Learning}
-      \field{title}{{DA}-{KD}: Difficulty-Aware Knowledge Distillation for Efficient Large Language Models}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://openreview.net/forum?id=NCYBdRCpw1
-      \endverb
-      \verb{url}
-      \verb https://openreview.net/forum?id=NCYBdRCpw1
-      \endverb
-    \endentry
     \entry{reuse2024}{article}{}
       \name{author}{2}{}{%
         {{hash=1318a946c3fffa54cec1130748f21c17}{%
@@ -961,8 +1202,8 @@
       \strng{authorbibnamehash}{8cebbd884353ec9b2ca199c579d685e1}
       \strng{authornamehash}{8cebbd884353ec9b2ca199c579d685e1}
       \strng{authorfullhash}{8cebbd884353ec9b2ca199c579d685e1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:2401.12345}
@@ -985,8 +1226,8 @@
       \strng{authorbibnamehash}{381ebaef6893d7af0b30916478dbbf80}
       \strng{authornamehash}{381ebaef6893d7af0b30916478dbbf80}
       \strng{authorfullhash}{381ebaef6893d7af0b30916478dbbf80}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{ACL}
@@ -1012,8 +1253,8 @@
       \strng{authorbibnamehash}{68b2874a5c47e1a54c6224eb1e9909a7}
       \strng{authornamehash}{68b2874a5c47e1a54c6224eb1e9909a7}
       \strng{authorfullhash}{68b2874a5c47e1a54c6224eb1e9909a7}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{NeurIPS}
@@ -1039,8 +1280,8 @@
       \strng{authorbibnamehash}{5120b82a4e46fad2f940ab7593ee8cc7}
       \strng{authornamehash}{5120b82a4e46fad2f940ab7593ee8cc7}
       \strng{authorfullhash}{5120b82a4e46fad2f940ab7593ee8cc7}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:2506.12345}
@@ -1066,8 +1307,8 @@
       \strng{authorbibnamehash}{091466c5c5fd26331ebd61ff2f722916}
       \strng{authornamehash}{091466c5c5fd26331ebd61ff2f722916}
       \strng{authorfullhash}{091466c5c5fd26331ebd61ff2f722916}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of ACL 2024}
